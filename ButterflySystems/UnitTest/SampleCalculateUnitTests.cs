@@ -32,7 +32,7 @@ namespace ButterflySystems.UnitTest
         public void SubtractTwoNumbers_CalculatesDifferenceSuccessfully()
         {
             // Arrange
-            var answer = 8.0m;
+            var answer = 2.0m;
 
             // Act
             var result = _calculateService.CalculateSubtract(5.0m, 3.0m);
@@ -46,7 +46,7 @@ namespace ButterflySystems.UnitTest
         public void MultiplyTwoNumbers_CalculatesProductSuccessfully()
         {
             // Arrange
-            var answer = 8.0m;
+            var answer = 15.0m;
 
             // Act
             var result = _calculateService.CalculateMultiply(5.0m, 3.0m);
@@ -60,10 +60,10 @@ namespace ButterflySystems.UnitTest
         public void DivideTwoNumbers_CalculatesQuotientSuccessfully()
         {
             // Arrange
-            var answer = 8.0m;
+            var answer = 2.0m;
 
             // Act
-            var result = _calculateService.CalculateDivide(5.0m, 3.0m);
+            var result = _calculateService.CalculateDivide(6.0m, 3.0m);
 
             // Assert
             Assert.IsNotNull(result);
